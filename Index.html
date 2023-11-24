@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creando memorias</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        article {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            flex: 0.3;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .search-form {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Creando memorias</h1>
+    </header>
+    <article>
+            <h2>¿De que se trata "Creando Memorias"?</h2>
+            <p>Nuestra pagina "Creando Memorias" es un sitio web donde ofrece actividades educativas como área de lectura, área para poder reforzar la memoria y para reforzar la escritura para niños de 2 a 8 años. Cabe aclarar que esto solo puede ser usado acompañado de un adulto 
+        </section>
+        <aside>
+            <h3>¿Como esto puede ayudar a los niños?</h3>
+            <p>Esto los puede ayudar a estimular su curiosidad y el interés opr aprender, tambien permite que tengan experiencias nuevas con nuevos dispositivos como lo es el internet adaptandose al ritmo de cada niño y a sus habilidades.
+        </section>
+        <aside>
+                <h4>Nuestra variedad de actividades educativas</h4>
+                <p> Las actividades con las que contamos es: actividad de lectura, juegos de memorizacion, actividades para escritura y area libre, es decir, area para poder pintar o dibujar lo que desee.
+        </section>
+        <aside>
+            <h5>Creando nuevos aprendizajes
+                <ul>
+                    <li><a href="Index.html">Creando memorias</a></li>
+                    <li><a href="Programas.html">Programas para los niños</a></li>
+                </ul>
+            </aside>
+<section>
+     <div class="container">
+        <div class="form-container">
+            <h2>Guardar datos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais" required>
+                    <option value="Selecciona">Selecciona un país</option>
+                    <option value="Perú">Perú</option>
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="aside-container">
+            <div class="google-search">
+                <h2>Buscador de Google</h2>
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar en Google">
+                    <input type="submit" value="Buscar">
+                </form>
+            </div>
+            <div class="youtube-video">
+                <h2>Video de YouTube</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jfRPs_fLWyU?si=9rKlCiSiFZ6RTNjn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>  
+</aside>
+    <footer>
+        &copy; 2023 Creando memorias
+    </footer>
+</body>
+</html>
